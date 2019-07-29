@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora Básica</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora básica</h1>
+    </header>
+    <section>
+        <div>
+            <p><input type="number" name="txtVal1" id="txtVal1" class="val">
+                <span>x</span>
+                <input type="number" name="txtVal2" id="txtVal2" class="val"> 
+            </p>
+            <p>
+                <input type="button" value="+" id="adicao" onclick="somar()">
+                <input type="button" value="-" id="subtracao" onclick="subtrair()">
+                <input type="button" value="x" id="multiplicacao" onclick="multiplicar()">
+                <input type="button" value="/" id="divisao" onclick="dividir()">
+            </p>
+        </div>
+        <div id="res">
+            Aqui virá o resultado...
+        </div>
+    </section>
+    <footer>
+        <p>&copy; William R. Sousa</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
